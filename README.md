@@ -3,48 +3,48 @@ Data structures and Algorithms are core part of problem solving. Understanding i
 
 Overview of Syllabus :
 
-Data Structures :
+*Data Structures :
 
--Introduction to Data Structures
+  *Introduction to Data Structures
 
--Arrays
+  *Arrays
 
--Linked List
+  *Linked List
 
--Stacks
+  *Stacks
 
--Queues
+  *Queues
 
--Trees
+  *Trees
 
--Graphs
+  *Graphs
 
--Heap 
+  *Heap 
 
--Hashing 
+  *Hashing 
 
--Matrix
+  *Matrix
 
-Algorithms : 
+*Algorithms : 
 
--Introduction to Algorithms
+  *Introduction to Algorithms
 
--Analysis of Algorithms
+  *Analysis of Algorithms
 
--Searching Algorithms
+  *Searching Algorithms
 
--Sorting Algorithms
+  *Sorting Algorithms
 
--Bitwise Manipulation
+  *Bitwise Manipulation
 
--Greedy Algorithms
+  *Greedy Algorithms
 
--Divide and Conquer
+  *Divide and Conquer
 
--Recursion
+  *Recursion
 
--Graph Algorithms 
+  *Graph Algorithms 
 
--Backtracking
+  *Backtracking
 
--Dynamic Programming
+  *Dynamic Programming
