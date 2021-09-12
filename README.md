@@ -3,7 +3,7 @@ Data structures and Algorithms are core part of problem solving. Understanding i
 
 Overview of Syllabus :
 
-*Data Structures :
+⋅⋅*Data Structures :
 
   *Introduction to Data Structures
 
