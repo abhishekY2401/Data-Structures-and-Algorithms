@@ -18,26 +18,27 @@ class bubbleSort {
 			for (int j = 1; j < n-i; j++) {
 				if (arr[j] < arr[j - 1]) {
 
-					// Swapping elements if the previous element is greater than current element
-					int temp = arr[j];
-					arr[j] = arr[j - 1];
-					arr[j - 1] = temp;
+						// Swapping elements if the previous element is greater than current element
+						int temp = arr[j];
+						arr[j] = arr[j - 1];
+						arr[j - 1] = temp;
 				}
 			}
 		}
 	}
   
-  public static void main(String[] args) {
-    // The unsorted array 
-		int[] arr = {23, 45, 12, 20, 19, 8};
-    
-		System.out.println("The elements in the array before sorting : ");    
-		System.out.println(Arrays.toString(arr));
+    public static void main(String[] args) {
+			
+			// The unsorted array 
+			int[] arr = {23, 45, 12, 20, 19, 8};
 
-    // when we call the bubble sort function it sorts the elements inside the array
-		BubbleSort(arr);
-    System.out.println("The elements in the array after sorting : ");   
-		System.out.println(Arrays.toString(arr));
+			System.out.println("The elements in the array before sorting : ");    
+			System.out.println(Arrays.toString(arr));
+
+			// when we call the bubble sort function it sorts the elements inside the array
+			BubbleSort(arr);
+			System.out.println("The elements in the array after sorting : ");   
+			System.out.println(Arrays.toString(arr));
   }
 }
 
