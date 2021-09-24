@@ -29,7 +29,7 @@ class bubbleSort {
   
     public static void main(String[] args) {
 			
-			// The unsorted array 
+		        // The unsorted array 
 			int[] arr = {23, 45, 12, 20, 19, 8};
 
 			System.out.println("The elements in the array before sorting : ");    
