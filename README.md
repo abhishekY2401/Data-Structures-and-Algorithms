@@ -1,5 +1,6 @@
 # Data-Structures-and-Algorithms
-Data structures and Algorithms are core part of problem solving. Understanding it is a bit difficult, So this repository will contain all resources and tutorials related to Data Structures and Algorithms.
+
+This is repository of DSA in which there are concepts of Data Structures and Algorithms and problems with solution.
 
 Overview of Syllabus :
 
