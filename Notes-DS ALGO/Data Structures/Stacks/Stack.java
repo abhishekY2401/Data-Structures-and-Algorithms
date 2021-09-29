@@ -1,6 +1,6 @@
 class Stack {
-	static int a[];
-	static int top;
+	int a[];
+	int top;
 	int capacity;
 
 	public Stack(int capacity) {
