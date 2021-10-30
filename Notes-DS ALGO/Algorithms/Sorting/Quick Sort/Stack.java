@@ -16,23 +16,21 @@ class Stack {
 		}
 		top++;
 		a[top] = data;
+		System.out.println(data + " is pushed inside the stack");
 	}
 
-	int pop() {
-		int res = -1;
+	void pop() {
 
 		if (top == -1) {
 			System.out.println("Under flow");
 		} else {
-			res = a[top];
 			top--;
+			System.out.println("Element is popped from the stack");
 		}
-
-		return res;
 	}
 
 	int peek() {
-		if (top == -1) {
+		if (isEmpty()) {
 			System.out.println("Empty Stack");
 		}
 		return a[top];
@@ -42,7 +40,7 @@ class Stack {
 		return top == -1;
 	}
 
-	void displayArray() {
+	void displayContent() {
 		System.out.print("Elements in the stack are : ");
 
 		for (int i = 0; i <= top; i++) {
@@ -53,27 +51,27 @@ class Stack {
 	public static void main(String[] args) {
 		// push(), pop(), peek(), isEmpty(), size()
 
-		Stack stack = new Stack(5);
+		// Allocating memory for the stack by initializing its object
+		Stack stack = new Stack(10);
 		stack.push(1);
-		System.out.println("Your data is pushed inside the stack.");
 		stack.push(2);
-		System.out.println("Your data is pushed inside the stack.");
 		stack.push(3);
-		System.out.println("Your data is pushed inside the stack.");
 		stack.push(4);
-		System.out.println("Your data is pushed inside the stack.");
 		stack.push(5);
-		System.out.println("Your data is pushed inside the stack.");
+		stack.push(6);
+		stack.push(7);
+		stack.push(8);
+		stack.push(9);
 
 		stack.pop();
-		System.out.println("Last element is popped from the stack.");
 		stack.pop();
-		System.out.println("Last element is popped from the stack.");
+		stack.pop();
+		stack.pop();
 
 		int val = stack.peek();
-		System.out.println("Element at the top of stack is : " + val);
-
-		stack.displayArray();
+		System.out.print("Element at the peek position : " + val);
+        System.out.println();
+		stack.displayContent();
 
 	}
 }
