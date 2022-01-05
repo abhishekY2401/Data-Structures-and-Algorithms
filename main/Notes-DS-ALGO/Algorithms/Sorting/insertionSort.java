@@ -10,7 +10,7 @@
 *   and compare with the predecessor. -> 45 > 12. So swap 45 and 12 with each other
 *
 *   [12,45,67 | 23,56] -> 67 > 23. So swap 67 and 23 with each other
-*   [12,45,23,67 | 56] -> 45 > 23. So swap 45 and 23 woth each other
+*   [12,45,23,67 | 56] -> 45 > 23. So swap 45 and 23 with each other
 *   [12,23,45,67 | 56] -> 12 < 23 no swap takes place
 *
 *   [12,23,45,67 | 56] -> 67 > 56. So swap 67 and 56 with each other
@@ -26,10 +26,10 @@ class insertionSort {
         int[] arr = {45,23,67,89,12,1,34,25};
 
         insertion(arr);
-        Arrays.toString(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
-    public static void insertion(int[] arr) {
+    private static void insertion(int[] arr) {
         int len = arr.length;
 
         for (int i = 1; i < len - 1; i++) {

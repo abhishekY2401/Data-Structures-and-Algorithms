@@ -39,18 +39,18 @@ class bubbleSort {
         int[] arr = {89, 67, 12, 90, 34, 55, 60, 20};
 
         bubble(arr);
-        Arrays.toString(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
-    public static void bubble(int[] arr) {
+    private static void bubble(int[] arr) {
         int len = arr.length;
 
-        for (int row = 0; row < len-1; row++) {
-            for (int col = 0; col < len-row-1; col++) {
-                if (arr[row] > arr[col + 1]) {
-                    int temp = arr[row];
-                    arr[row] = arr[col + 1];
-                    arr[col + 1] = temp;
+        for (int i = 0; i < len; i++) {
+            for (int j = 1; j <= len-i-1; j++) {
+                if (arr[j-1] > arr[j]) {
+                    int temp = arr[j-1];
+                    arr[j-1] = arr[j];
+                    arr[j] = temp;
                 }
             }
         }
