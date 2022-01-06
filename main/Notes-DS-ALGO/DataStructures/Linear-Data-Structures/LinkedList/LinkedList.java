@@ -1,6 +1,10 @@
 public class LinkedList {
     Node head;
 
+    public LinkedList() {
+        this.head = null;
+    }
+
     static class Node {
         int data;
         Node next;
@@ -8,7 +12,6 @@ public class LinkedList {
         Node(int data) {
             this.data = data;
             next = null;
-
         }
     }
 
